@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: blue;
+    color: white;
+    padding-bottom: 30px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.first-input{
+    background-color: blue;
+    border: 1px solid whitesmoke;
+    display: flex;
+    margin: auto;
+    padding: 9px 10px;
+    margin-bottom: 15px;
+}
+button{
+    padding: 15px 15px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+}
+.main{
+    background-color: rgb(195, 202, 195);
+    padding: 20px;
+}
+.card{
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+h4{
+    display: flex;
+    justify-content: center;
+}
+.length-input{
+    display: flex;
+    justify-content: center;
+}
+.volume-input{
+    display: flex;
+    justify-content: center;
+}
+.mass-input{
+    display: flex;
+    justify-content: center;
+}
