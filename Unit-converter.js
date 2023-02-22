@@ -17,5 +17,6 @@ convertBtn.addEventListener("click", function() {
     volumeInput.textContent = `${baseValue} Liters = ${baseValue * literToGallon} Gallons`;
 
     massInput.textContent = `${baseValue} Kilograms = ${kiloToPound} pound`;
-    
+
+    return baseValue
 })
