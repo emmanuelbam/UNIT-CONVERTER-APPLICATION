@@ -1,8 +1,8 @@
 let convertBtn = document.getElementById("convert-btn")
-let inputEl = document.getElementById("inpute-el")
-let lengthInput = document.getElementById("length-input")
-let volumeInput = document.getElementById("volume-input")
-let massInput = document.getElementById("mass-input")
+let inputEl = document.getElementById("input-el")
+let lengthEl = document.getElementById("length-el")
+let volumeEl = document.getElementById("volume-el")
+let massEl = document.getElementById("mass-el")
 
 
 const meterToFeet =  3.281
@@ -10,13 +10,14 @@ const literToGallon =  0.264
 const kiloToPound =  2.204
 
 convertBtn.addEventListener("click", function() {
-    let baseValue = inputEl.value.
+    let baseValue = inputEl.value
+    console.log(lengthEl)
 
-    lengthEl.textcontent = `${baseValue} meter = ${baseValue * meterToFeet} feet`;
+    lengthEl.textContent = `${baseValue} meters = ${baseValue * meterToFeet} feet `
 
-    volumeInput.textContent = `${baseValue} Liters = ${baseValue * literToGallon} Gallons`;
+    volumeEl.textContent = `${baseValue} Liters = ${baseValue * literToGallon} Gallons`;
 
-    massInput.textContent = `${baseValue} Kilograms = ${kiloToPound} pound`;
+    massEl.textContent = `${baseValue} Kilograms = ${kiloToPound} pound`;
 
     return baseValue
 })
